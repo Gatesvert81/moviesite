@@ -1,0 +1,49 @@
+
+
+
+.carousel{
+  margin: 0px;
+  padding: 0;
+}
+
+.carousel-item {
+  height: 32rem;
+}
+
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+.d-block{
+  width: 100px;
+  height: 300px;
+}
+
+.d-flex{
+  margin-top: 20px;
+}
+
+.search{
+  display: flex;
+  border-radius: 20px;
+  border-color: black;
+  text-align: center;
+  align-items:center;
+}
+
+.pics{
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+  grid-column: 1fr 1fr 1fr 1fr;
+
+}
+
+img{
+  width: 200px;
+  height: 200px;
+}
